@@ -15,11 +15,11 @@ E:/JRL493Final/Final Game Project JRL 493
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60182
+56198
 Successfully changed project path to: E:/JRL493Final/Final Game Project JRL 493
 E:/JRL493Final/Final Game Project JRL 493
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001525 seconds.
+Registered in 0.001631 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.528 seconds
+- Completed reload, in  0.532 seconds
 Domain Reload Profiling:
-	ReloadAssembly (528ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (532ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (408ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (409ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (160ms)
+			SetupLoadedEditorAssemblies (158ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (67ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009955 seconds.
+Registered in 0.021062 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.02 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.000 seconds
+- Completed reload, in  1.004 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1001ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1005ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (814ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
+			SetupTypeCache (282ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (292ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (298ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (50ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.2 MB.
-System memory in use after: 120.4 MB.
+System memory in use before: 120.3 MB.
+System memory in use after: 120.5 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3204.
-Total: 2.979400 ms (FindLiveObjects: 0.212900 ms CreateObjectMapping: 0.062200 ms MarkObjects: 2.631200 ms  DeleteObjects: 0.072000 ms)
+Total: 3.191000 ms (FindLiveObjects: 0.220200 ms CreateObjectMapping: 0.063100 ms MarkObjects: 2.827400 ms  DeleteObjects: 0.079300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,113 +132,728 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/models/dog human.fbx
-  artifactKey: Guid(1db01e4d932b01f45b5fa9879f93a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/dog human.fbx using Guid(1db01e4d932b01f45b5fa9879f93a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517a26b385617b78fb06806cac5bff31') in 0.382108 seconds 
-  Import took 0.385902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/models
-  artifactKey: Guid(bf5ae470978c34e118fa153317fb01f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models using Guid(bf5ae470978c34e118fa153317fb01f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd88795e188740706fbfc442f9b043f1') in 0.002072 seconds 
-  Import took 0.005555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.609572 seconds.
-  path: Assets/models/dog human.fbx
-  artifactKey: Guid(1db01e4d932b01f45b5fa9879f93a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/dog human.fbx using Guid(1db01e4d932b01f45b5fa9879f93a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421f0095de5a9f94ae016b91c048b29b') in 0.026494 seconds 
-  Import took 0.030670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.878816 seconds.
-  path: Assets/models/textures
-  artifactKey: Guid(ae60ddfa7556fb6469f085809c4e4090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/textures using Guid(ae60ddfa7556fb6469f085809c4e4090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b216af55589752f7fc75eb6c4a65c0cf') in 0.003278 seconds 
-  Import took 0.008004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075891 seconds.
-  path: Assets/models/textures/Hotdog_baseColor.png
-  artifactKey: Guid(6bee476775f8d3541aad8565a1424752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/textures/Hotdog_baseColor.png using Guid(6bee476775f8d3541aad8565a1424752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d23148999e8eddd08e8f7b27df0f54') in 0.019072 seconds 
-  Import took 0.022963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/models/textures/peau.002_diffuse.png
-  artifactKey: Guid(4364d44bb9555b54382d138a6cf446ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/textures/peau.002_diffuse.png using Guid(4364d44bb9555b54382d138a6cf446ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e108b5739afd7304f5e3b3e38ceaad38') in 0.013193 seconds 
-  Import took 0.016722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/models/textures/peau.002_normal.png
-  artifactKey: Guid(d5b87fa2b8cd66e44b57d7389fbcaa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/textures/peau.002_normal.png using Guid(d5b87fa2b8cd66e44b57d7389fbcaa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550869b288711944851a6d51ba2cef75') in 0.009031 seconds 
-  Import took 0.012797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.041794 seconds.
-  path: Assets/models/DogHuman
-  artifactKey: Guid(7351e2b21d94ec04f950af03ac088fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/DogHuman using Guid(7351e2b21d94ec04f950af03ac088fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0277262a9bced64490569355a5d86350') in 0.002752 seconds 
-  Import took 0.006937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.502378 seconds.
-  path: Assets/models/DogHuman/Materials
-  artifactKey: Guid(33db709182078c740b9c7ae1af81b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/DogHuman/Materials using Guid(33db709182078c740b9c7ae1af81b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53b5e1ee5783623856df52fa273e243') in 0.002639 seconds 
-  Import took 0.006540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.871145 seconds.
   path: Assets/models/DogHuman/Materials/DogHumanMat.mat
   artifactKey: Guid(047ca61d447a3194eae539d58f3864be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/DogHuman/Materials/DogHumanMat.mat using Guid(047ca61d447a3194eae539d58f3864be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8552b4d25fc7799a6c15b4a93530eebe') in 0.015660 seconds 
-  Import took 0.019841 seconds .
+Start importing Assets/models/DogHuman/Materials/DogHumanMat.mat using Guid(047ca61d447a3194eae539d58f3864be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96d4380db5c5b285ade2fa39d4c8c72') in 0.115654 seconds 
+  Import took 0.125023 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.825797 seconds.
-  path: Assets/models/DogHuman/textures/peau.002_normal.png
-  artifactKey: Guid(d5b87fa2b8cd66e44b57d7389fbcaa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/DogHuman/textures/peau.002_normal.png using Guid(d5b87fa2b8cd66e44b57d7389fbcaa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05a07d52b267e1db2db852a97821ba5') in 0.019931 seconds 
-  Import took 0.024207 seconds .
+  Time since last request: 11.305777 seconds.
+  path: Assets/models/DogHuman/Animations
+  artifactKey: Guid(99bbaec0d38a18943a95e7dafbb1f0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations using Guid(99bbaec0d38a18943a95e7dafbb1f0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb350c3ac2de9516cac0912a0ebf2da5') in 0.002929 seconds 
+  Import took 0.008156 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.714492 seconds.
-  path: Assets/models/DogHuman/textures/peau.002_normal.png
-  artifactKey: Guid(d5b87fa2b8cd66e44b57d7389fbcaa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/DogHuman/textures/peau.002_normal.png using Guid(d5b87fa2b8cd66e44b57d7389fbcaa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75c85580d6460b7bd0e4cf8a72cc15c') in 0.011183 seconds 
-  Import took 0.015420 seconds .
+  Time since last request: 15.756115 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx
+  artifactKey: Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx using Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe839c368ef02b437691775a7835158') in 0.082390 seconds 
+  Import took 0.087389 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.216944 seconds.
-  path: Assets/models/DogHuman/dog human.fbx
-  artifactKey: Guid(1db01e4d932b01f45b5fa9879f93a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/DogHuman/dog human.fbx using Guid(1db01e4d932b01f45b5fa9879f93a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae84a2959165ddb1699a71050fe29d3') in 0.016697 seconds 
-  Import took 0.020815 seconds .
+  Time since last request: 41.174047 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx
+  artifactKey: Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx using Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fddfa39907fdd922df87299994863d') in 0.033866 seconds 
+  Import took 0.038646 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.801854 seconds.
-  path: Assets/models/DogHuman/dog human.fbx
-  artifactKey: Guid(1db01e4d932b01f45b5fa9879f93a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/DogHuman/dog human.fbx using Guid(1db01e4d932b01f45b5fa9879f93a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3c98753d7e0415de100c331db87e92') in 0.012556 seconds 
-  Import took 0.016798 seconds .
+  Time since last request: 30.897830 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Idle 1.fbx
+  artifactKey: Guid(b65267300c3af1248ab47347a488b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Idle 1.fbx using Guid(b65267300c3af1248ab47347a488b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b310760181842ffe45b7c05768bf4aff') in 0.031451 seconds 
+  Import took 0.036400 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 34.764229 seconds.
+  path: Assets/models/DogHuman/Animations/Zombie Idle.anim
+  artifactKey: Guid(b5a3121384200e54d86d0081b2e99622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/Zombie Idle.anim using Guid(b5a3121384200e54d86d0081b2e99622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1005451f81433a7f408a42ca1412e6') in 0.016473 seconds 
+  Import took 0.021114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.115102 seconds.
+  path: Assets/models/DogHuman/Animations/HotDog.controller
+  artifactKey: Guid(15e353b685dc22644873289951e2b653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/HotDog.controller using Guid(15e353b685dc22644873289951e2b653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99566023675d93dc47c6847690a2436c') in 0.009083 seconds 
+  Import took 0.014154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.929611 seconds.
+  path: Assets/models/DogHuman/Animations/HotDog.controller
+  artifactKey: Guid(15e353b685dc22644873289951e2b653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/HotDog.controller using Guid(15e353b685dc22644873289951e2b653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91d2a829fa2bef90c21c72484f0189a') in 0.016109 seconds 
+  Import took 0.020266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.326597 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx
+  artifactKey: Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx using Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b6dd51986c05618eaf9da24236171c') in 0.027756 seconds 
+  Import took 0.032258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.922036 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx
+  artifactKey: Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx using Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ba739992c6c11614a6e6adf1f9ba66') in 0.029877 seconds 
+  Import took 0.034676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.163810 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx
+  artifactKey: Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx using Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4191d3884b30f3792e56758b1ba6112b') in 0.024634 seconds 
+  Import took 0.029532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/models/DogHuman/Materials/Hotdog.mat
+  artifactKey: Guid(3d7f2ecc9428f1745b917b4010867b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Materials/Hotdog.mat using Guid(3d7f2ecc9428f1745b917b4010867b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c7b5e55defdc5a6f2cb694bd2affd2') in 0.010764 seconds 
+  Import took 0.015422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/models/DogHuman/Materials/peau.002.mat
+  artifactKey: Guid(618355c07f556b34d8654839ecda03d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Materials/peau.002.mat using Guid(618355c07f556b34d8654839ecda03d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c204526fa3e4d5b6d18559d765a2890') in 0.008871 seconds 
+  Import took 0.013640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.864693 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx
+  artifactKey: Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx using Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a4736746f5c59186ead943140f8ce2') in 0.025643 seconds 
+  Import took 0.029985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.959089 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx
+  artifactKey: Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx using Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba6d25a6e075f9c57d32d601fcc9852') in 0.027485 seconds 
+  Import took 0.032209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.317637 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx
+  artifactKey: Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx using Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9e146253e0ef71e11b278fe6958365') in 0.021873 seconds 
+  Import took 0.026439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.794361 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx
+  artifactKey: Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx using Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58dc992b749a94953fb40b52fd0771de') in 0.021755 seconds 
+  Import took 0.026764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.902062 seconds.
+  path: Assets/models/DogHuman/Animations/Materials
+  artifactKey: Guid(ea558aa17a2e50e47970399bc03a3b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/Materials using Guid(ea558aa17a2e50e47970399bc03a3b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8b1f7520361cb99d12ed5d87b00e8e') in 0.002736 seconds 
+  Import took 0.011050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038809 seconds.
+  path: Assets/models/DogHuman/Animations/Materials/Hotdog_baseColor.mat
+  artifactKey: Guid(d972b4ba0ed153d428b8bdfc208b24fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/Materials/Hotdog_baseColor.mat using Guid(d972b4ba0ed153d428b8bdfc208b24fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eaac5e925b805be1d789327da0ea4cb') in 0.008573 seconds 
+  Import took 0.012817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.666684 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx
+  artifactKey: Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx using Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd58d6da5ad7759c886d4aed3b2a22c') in 0.024912 seconds 
+  Import took 0.030072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.897556 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx
+  artifactKey: Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Idle.fbx using Guid(459dd25d46cda5b488115b4704b30492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404c555cc425794aa123c84dd8665b89') in 0.022900 seconds 
+  Import took 0.027563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.567290 seconds.
+  path: Assets/models/DogHuman/Materials/Hotdog.mat
+  artifactKey: Guid(3d7f2ecc9428f1745b917b4010867b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Materials/Hotdog.mat using Guid(3d7f2ecc9428f1745b917b4010867b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5777b90c82b026457c168a5ae11644c') in 0.010387 seconds 
+  Import took 0.014997 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Domain Reload Profiling:
+	ReloadAssembly (872ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (712ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2714 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.5 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3250.
+Total: 2.878100 ms (FindLiveObjects: 0.212100 ms CreateObjectMapping: 0.062800 ms MarkObjects: 2.558300 ms  DeleteObjects: 0.044100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 112.875179 seconds.
+  path: Assets/models/DogHuman/Prefab
+  artifactKey: Guid(9f8af4aa3b573074982c28228de5c53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Prefab using Guid(9f8af4aa3b573074982c28228de5c53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11700973c7d5307625be6a62f2e4bd2') in 0.006901 seconds 
+  Import took 0.011619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.838653 seconds.
+  path: Assets/models/DogHuman/Prefab/dog human@Zombie Idle.prefab
+  artifactKey: Guid(a79607dc9102ab141a9d4f69c373598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Prefab/dog human@Zombie Idle.prefab using Guid(a79607dc9102ab141a9d4f69c373598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae47c4cae2df37f06992ae10e8ea60f9') in 0.059276 seconds 
+  Import took 0.063964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.796041 seconds.
+  path: Assets/models/DogHuman/Prefab/Dog_human.prefab
+  artifactKey: Guid(a79607dc9102ab141a9d4f69c373598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Prefab/Dog_human.prefab using Guid(a79607dc9102ab141a9d4f69c373598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100584d6cb2d4bc40cd5710719849f00') in 0.019754 seconds 
+  Import took 0.024182 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004668 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Domain Reload Profiling:
+	ReloadAssembly (874ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (727ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2714 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.6 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3253.
+Total: 2.933400 ms (FindLiveObjects: 0.228200 ms CreateObjectMapping: 0.063900 ms MarkObjects: 2.596100 ms  DeleteObjects: 0.044500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 106.396088 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Running.fbx
+  artifactKey: Guid(3021a690d3d3ef44e85ef67bfaae4ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Running.fbx using Guid(3021a690d3d3ef44e85ef67bfaae4ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e6668ab326e4682cc505c15cad2b9e') in 0.032442 seconds 
+  Import took 0.037737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.160244 seconds.
+  path: Assets/models/DogHuman/Animations/Zombie Running.anim
+  artifactKey: Guid(895cae454aadcc749848d5cfe289d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/Zombie Running.anim using Guid(895cae454aadcc749848d5cfe289d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5b8959e20b4d3b35ccf91280646609') in 0.008929 seconds 
+  Import took 0.013037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.421452 seconds.
+  path: Assets/models/DogHuman/Animations/Unused
+  artifactKey: Guid(94aca9b4171ab244b95f34976a66debb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/Unused using Guid(94aca9b4171ab244b95f34976a66debb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28494f149d2625b2a65a23dbf3aca21b') in 0.003034 seconds 
+  Import took 0.007659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.174221 seconds.
+  path: Assets/models/DogHuman/Animations/Zombie Running.anim
+  artifactKey: Guid(895cae454aadcc749848d5cfe289d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/Zombie Running.anim using Guid(895cae454aadcc749848d5cfe289d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33881d87f23658a9badf1f87d0b5c41') in 0.008984 seconds 
+  Import took 0.013085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.750713 seconds.
+  path: Assets/models/DogHuman/Animations/Zombie Idle.anim
+  artifactKey: Guid(b5a3121384200e54d86d0081b2e99622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/Zombie Idle.anim using Guid(b5a3121384200e54d86d0081b2e99622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0b3be0481400a10cdcc28536c050cb') in 0.010938 seconds 
+  Import took 0.019849 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004646 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Domain Reload Profiling:
+	ReloadAssembly (887ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (733ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2714 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.6 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3255.
+Total: 3.077300 ms (FindLiveObjects: 0.227600 ms CreateObjectMapping: 0.063000 ms MarkObjects: 2.737200 ms  DeleteObjects: 0.048300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004839 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (895ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (746ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2714 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3257.
+Total: 2.962700 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.063200 ms MarkObjects: 2.624000 ms  DeleteObjects: 0.046200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004802 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Domain Reload Profiling:
+	ReloadAssembly (907ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (750ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2714 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3259.
+Total: 3.125100 ms (FindLiveObjects: 0.219600 ms CreateObjectMapping: 0.063700 ms MarkObjects: 2.795300 ms  DeleteObjects: 0.045500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004864 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Domain Reload Profiling:
+	ReloadAssembly (913ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2714 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3261.
+Total: 3.106400 ms (FindLiveObjects: 0.243600 ms CreateObjectMapping: 0.066500 ms MarkObjects: 2.744400 ms  DeleteObjects: 0.050900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 283.837797 seconds.
+  path: Assets/models/DogHuman/Animations/HotDog.controller
+  artifactKey: Guid(15e353b685dc22644873289951e2b653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/HotDog.controller using Guid(15e353b685dc22644873289951e2b653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcad7e55c05dca296cb26408e4bffed7') in 0.025295 seconds 
+  Import took 0.033591 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005409 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Domain Reload Profiling:
+	ReloadAssembly (939ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (776ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2714 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3263.
+Total: 3.285700 ms (FindLiveObjects: 0.241600 ms CreateObjectMapping: 0.064300 ms MarkObjects: 2.910100 ms  DeleteObjects: 0.068300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 93.790568 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Running.fbx
+  artifactKey: Guid(3021a690d3d3ef44e85ef67bfaae4ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Running.fbx using Guid(3021a690d3d3ef44e85ef67bfaae4ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8963ea4f12feacd4c084a67049ffc94') in 0.026512 seconds 
+  Import took 0.031184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.415676 seconds.
+  path: Assets/models/DogHuman/Animations/dog human@Zombie Running.fbx
+  artifactKey: Guid(3021a690d3d3ef44e85ef67bfaae4ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/dog human@Zombie Running.fbx using Guid(3021a690d3d3ef44e85ef67bfaae4ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4177b5f79837ddb7c78b25cba5d492df') in 0.010892 seconds 
+  Import took 0.015478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.906505 seconds.
+  path: Assets/models/DogHuman/Animations/Zombie Running.anim
+  artifactKey: Guid(895cae454aadcc749848d5cfe289d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/DogHuman/Animations/Zombie Running.anim using Guid(895cae454aadcc749848d5cfe289d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cae7eafd660629e1faecd4b6d4f40a') in 0.010469 seconds 
+  Import took 0.014929 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004787 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.854 seconds
+Domain Reload Profiling:
+	ReloadAssembly (855ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (705ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2714 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.7 MB.
+System memory in use after: 131.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3265.
+Total: 2.944100 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.063000 ms MarkObjects: 2.608800 ms  DeleteObjects: 0.045300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
