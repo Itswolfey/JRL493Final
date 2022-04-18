@@ -5,12 +5,14 @@ using UnityEngine;
 public class Pan : MonoBehaviour
 {
     public CapsuleCollider panHit;
+    public bool canSwing;
     Animator anim;
     // Start is called before the first frame update
     void Start()
     {
         
         anim = GetComponent<Animator>();
+        canSwing = true;
         
         
     }
@@ -18,9 +20,11 @@ public class Pan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && canSwing)
         {
             anim.SetTrigger("Swing");
+            canSwing = false;
+            StartCoroutine(PanCoolDown());
             //aSource.PlayOneShot(panHitSound);
         }
     }
@@ -35,4 +39,9 @@ public class Pan : MonoBehaviour
         panHit.enabled = true;
     }
     
+    IEnumerator PanCoolDown()
+    {
+        yield return new WaitForSeconds(1);
+        canSwing = true;
+    }
 }

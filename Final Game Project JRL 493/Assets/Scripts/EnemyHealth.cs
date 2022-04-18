@@ -7,6 +7,9 @@ public class EnemyHealth : MonoBehaviour
     public float enemyMaxHealth = 100;
     public float enemyCurrentHealth;
     public float damageDealt;
+    public ParticleSystem blood1;
+    public ParticleSystem blood2;
+    public AudioSource zombieMoan;
 
     public AudioSource aSource;
 
@@ -33,10 +36,18 @@ public class EnemyHealth : MonoBehaviour
     {
         if(other.tag == "Pan")
         {
+            blood1.Play();
+            blood2.Play();
             Debug.Log("Hit By Pan");
             aSource.Play();
             damageDealt = 100;
             EnemyTakeDamage(damageDealt);
         }
+    }
+
+    IEnumerator ZombieSound()
+    {
+        yield return new WaitForSeconds(3);
+        zombieMoan.Play();
     }
 }

@@ -10,6 +10,8 @@ public class AIController : MonoBehaviour
     NavMeshAgent enemyNavMesh;
     GameObject playerReference;
     Animator anim;
+    Rigidbody rb;
+    public CapsuleCollider col;
     public CapsuleCollider fist;
 
     public float speedRun;
@@ -35,6 +37,8 @@ public class AIController : MonoBehaviour
 
     private void Awake()
     {
+        
+        rb = GetComponent<Rigidbody>();
         enemyHealth = GetComponent<EnemyHealth>();
         enemyNavMesh = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
@@ -113,17 +117,27 @@ public class AIController : MonoBehaviour
         StartCoroutine(Death());
     }
 
+    public void animFix()
+    {
+        enemyNavMesh.enabled = false;
+        //col.enabled = false;
+        fist.enabled = false;
+        
+        
+    }
+
    
     
     IEnumerator ResetAttack()
     {
         if (hasAttacked && !isDead)
         {
-            anim.Play("Zombie Attack");
+            anim.SetBool("Attack", true);
             transform.LookAt(playerPosition);
             yield return new WaitForSeconds(waitTime);
             hasAttacked = false;
-            anim.Play("Zombie Running");
+            anim.SetBool("Attack", false);
+            anim.SetBool("Chase", true);
             ischasingPlayer = true;
             enemyNavMesh.speed = speedRun;
         }
@@ -134,10 +148,14 @@ public class AIController : MonoBehaviour
     {
         if (enemyHealth.enemyCurrentHealth <= 0)
         {
+            col.direction = 2;
+            
             firstPersonMovement.speed = defaultSpeed;
             isDead = true;
+            anim.SetBool("Attack", false);
+            anim.SetBool("Chase", false);
             anim.SetTrigger("Death");
-            yield return new WaitForSeconds(3.5f);
+            yield return new WaitForSeconds(4f);
             Destroy(gameObject);
         }
         
