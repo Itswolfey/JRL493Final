@@ -9,6 +9,15 @@ public class PlayerHealth : MonoBehaviour
     public int currentHealth;
     public int dmg;
     public HealthBar healthBar;
+    public AudioSource source;
+    
+    public AudioClip[] hurt;
+    
+    
+
+    public GameObject deathScreen;
+
+    public bool isDead;
 
     Rigidbody rb;
     // Start is called before the first frame update
@@ -16,6 +25,8 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        deathScreen.SetActive(false);
+        isDead = false;
         
         
     }
@@ -37,16 +48,24 @@ public class PlayerHealth : MonoBehaviour
         if(other.tag == "Fist")
         {
             TakeDamage(dmg);
+            source.clip = hurt[Random.Range(0, hurt.Length)];
+            source.Play();
         }
     }
 
-    public void RestartGame()
+    
+
+   public void RestartGame()
     {
         if(currentHealth <= 0)
         {
-            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex );
+            deathScreen.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Time.timeScale = 0f;
         }
+        
     }
 
+    
   
 }
