@@ -40,7 +40,7 @@ public class EnemyHealth : MonoBehaviour
             blood2.Play();
             Debug.Log("Hit By Pan");
             aSource.Play();
-            damageDealt = 100;
+            damageDealt = Random.Range(10, 25);
             EnemyTakeDamage(damageDealt);
         }
     }

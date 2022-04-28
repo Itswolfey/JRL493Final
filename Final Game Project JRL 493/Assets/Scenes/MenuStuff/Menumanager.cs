@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Menumanager : MonoBehaviour
 {
+    public GameObject ControlMenu;
+
+
     private void Start()
     {
         Time.timeScale = 1f;
@@ -23,6 +26,16 @@ public class Menumanager : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Quit");
+    }
+
+    public void ShowControlMenu()
+    {
+        ControlMenu.SetActive(true);
+    }
+
+    public void HideControlMenu()
+    {
+        ControlMenu.SetActive(false);
     }
         
 }
