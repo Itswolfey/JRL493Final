@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61411
+64689
 Successfully changed project path to: /Users/dw/Desktop/JRL249A_FinalProject/JRL493Final/Final Game Project JRL 493
 /Users/dw/Desktop/JRL249A_FinalProject/JRL493Final/Final Game Project JRL 493
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 272.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 385.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/dw/Desktop/JRL249A_FinalProject/JRL493Final/Final Game Project JRL 493/Assets
 GfxDevice: creating device client; threaded=0
-2022-04-26 09:52:55.803 Unity[5710:2166316] (null) preferred device: Apple M1 (high power)
-2022-04-26 09:52:55.803 Unity[5710:2166316] Metal devices available: 1
-2022-04-26 09:52:55.803 Unity[5710:2166316] 0: Apple M1 (high power)
-2022-04-26 09:52:55.803 Unity[5710:2166316] Using device Apple M1 (high power)
+2022-04-28 07:46:00.068 Unity[9003:2351612] (null) preferred device: Apple M1 (high power)
+2022-04-28 07:46:00.068 Unity[9003:2351612] Metal devices available: 1
+2022-04-28 07:46:00.069 Unity[9003:2351612] 0: Apple M1 (high power)
+2022-04-28 07:46:00.069 Unity[9003:2351612] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56710
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56003
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.057215 seconds.
+Registered in 0.057334 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 53.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 55.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.848 seconds
+- Completed reload, in  4.352 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2848ms)
-		BeginReloadAssembly (1408ms)
+	ReloadAssembly (4352ms)
+		BeginReloadAssembly (2932ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1243ms)
-			LoadAssemblies (1419ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1227ms)
+			LoadAssemblies (2941ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (355ms)
+			SetupTypeCache (332ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (559ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (566ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (53ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (295ms)
-				ProcessInitializeOnLoadMethodAttributes (126ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.489277 seconds.
+Registered in 0.316065 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 55.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 56.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.487 seconds
+- Completed reload, in  3.333 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3496ms)
-		BeginReloadAssembly (272ms)
+	ReloadAssembly (3341ms)
+		BeginReloadAssembly (276ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
+			DisableScriptedObjects (27ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (3136ms)
-			LoadAssemblies (841ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (2979ms)
+			LoadAssemblies (821ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (600ms)
+			SetupTypeCache (596ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (1347ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1223ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (202ms)
-				ProcessInitializeOnLoadAttributes (803ms)
-				ProcessInitializeOnLoadMethodAttributes (274ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (754ms)
+				ProcessInitializeOnLoadMethodAttributes (233ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (44ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.049015 seconds.
+Validating Project structure ... 0.040237 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.063725 seconds.
+Upgrading shader files ...0.059530 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -125,4 +125,4 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.26 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
